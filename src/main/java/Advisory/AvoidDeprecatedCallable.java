@@ -6,7 +6,7 @@ public class AvoidDeprecatedCallable
         // ...
     }
 
-    public void dowork()
+    public void doWork()
     {
         theOldWayOfDoingThings();
         // ...
