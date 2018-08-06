@@ -8,5 +8,4 @@ public class Child extends Parent
     {
         System.out.println("From child m1()");
     }
-     
 }
