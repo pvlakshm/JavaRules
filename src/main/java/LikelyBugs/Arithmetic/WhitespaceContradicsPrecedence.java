@@ -1,4 +1,4 @@
-public class WhitespaceAroundOperators
+public class WhitespaceContradicsPrecedence
 {
     private void contracdictsOpPrecedence()
     {
