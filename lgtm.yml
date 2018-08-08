@@ -1,2 +1,3 @@
 queries:
 - include: java/unused-parameter
+- include: java/non-short-circuit-evaluation
