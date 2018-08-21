@@ -7,7 +7,8 @@ public class BadAbsOfRandom
         // Calling 'Math.abs' to find the absolute value of a randomly generated integer is not guaranteed
         // to return a non-negative integer.
         // References:
-        // Rule: https://lgtm.com/rules/1800073/
+        // Rule doc: https://lgtm.com/rules/1800073/
+        // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Likely%20Bugs/Arithmetic/BadAbsOfRandom.ql
 
         int seed = 17;
         Random rng = new Random(seed);

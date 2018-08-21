@@ -5,7 +5,8 @@ public class WhitespaceContradicsPrecedence
         // Nested expressions where the formatting contradicts the grouping enforced by operator precedence
         // are difficult to read and may even indicate a bug.
         // References:
-        // Rule: https://lgtm.com/rules/11000068/
+        // Rule doc: https://lgtm.com/rules/11000068/
+        // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Likely%20Bugs/Arithmetic/WhitespaceContradictsPrecedence.ql
 
         // below, the spacing around + and >> suggests the grouping
         // capacity + (capacity>>1), i.e., the allocated array should

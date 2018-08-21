@@ -7,7 +7,8 @@ public class ImpossibleJavadocThrows
     {
         // Javadoc that incorrectly claims a method or constructor can throw an exception is misleading.
         // References:
-        // Rule: https://lgtm.com/rules/2043890479/
+        // Rule doc: https://lgtm.com/rules/2043890479/
+        // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Advisory/Documentation/ImpossibleJavadocThrows.ql
 
         System.out.println("this method does not throw.");
     }

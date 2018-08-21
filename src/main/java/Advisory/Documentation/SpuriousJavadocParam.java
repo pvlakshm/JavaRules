@@ -3,7 +3,8 @@ public class SpuriousJavadocParam
     // Javadoc @param tags that do not match any parameters in the method or constructor are confusing.
     // Various examples of spurious Javadoc param tags.
     // References:
-    // Rule: https://lgtm.com/rules/2049510531/
+    // Rule doc: https://lgtm.com/rules/2049510531/
+    // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Advisory/Documentation/ImpossibleJavadocThrows.ql
 
     /**
      * The following param tag is empty.
