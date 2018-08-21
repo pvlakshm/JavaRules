@@ -4,4 +4,12 @@
 # JavaRules
 This is a work-in-progress.
 
-This repo contains Java code samples that will trigger specific LGTM queries that generate appropriate alerts. The intent is to have a repo full of samples for a friendly illustration of the the power of Semmle QL.
+This repo contains Java code samples that will trigger specific QL queries on LGTM that generate appropriate alerts. The intent is to have a repo full of samples for a friendly illustration of the the power of Semmle QL.
+
+# Building
+JavaRules is built from the CLI using Maven.
+
+# Contributing
+There are many ways to contribute to JavaRules
+- [Submit issues](https://github.com/pvlakshm/JavaRules/issues) and help verify fixes as they are checked in.
+- Review the [source code changes](https://github.com/pvlakshm/JavaRules/pulls).
