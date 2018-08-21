@@ -2,6 +2,10 @@ import java.io.File;
 
 public class ContainerSizeCmpZero
 {
+    // Comparing the size of a container to zero with this operator will always return the same value.
+    // References:
+    // Rule: https://lgtm.com/rules/6780071/
+
     // A map, collection, string or array will always have size of at least zero.
     // Checking that an object of one of these types has size greater than or equal
     // to zero will always be true, while checking that it has size less than zero
