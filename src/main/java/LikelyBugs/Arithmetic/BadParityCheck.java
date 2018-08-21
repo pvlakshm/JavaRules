@@ -4,7 +4,8 @@ public class BadParityCheck
     {
         // Using "x % 2 == 1" to check whether x is odd does not work for negative numbers.
         // References:
-        // Rule: https://lgtm.com/rules/2158300732/
+        // Rule doc: https://lgtm.com/rules/2158300732/
+        // QL query: 
 
         return x % 2 == 1;
     }

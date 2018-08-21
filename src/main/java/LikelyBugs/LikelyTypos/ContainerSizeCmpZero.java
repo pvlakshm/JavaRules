@@ -4,7 +4,8 @@ public class ContainerSizeCmpZero
 {
     // Comparing the size of a container to zero with this operator will always return the same value.
     // References:
-    // Rule: https://lgtm.com/rules/6780071/
+    // Rule doc: https://lgtm.com/rules/6780071/
+    // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Likely%20Bugs/Likely%20Typos/ContainerSizeCmpZero.ql
 
     // A map, collection, string or array will always have size of at least zero.
     // Checking that an object of one of these types has size greater than or equal
