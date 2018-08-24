@@ -1,3 +1,8 @@
 queries:
+- include: java/missing-override-annotation
+- include: java/deprecated-call
+- include: java/inconsistent-javadoc-throws
 - include: java/unused-parameter
+- include: java/abs-of-random
+- include: java/multiplication-of-remainder
 - include: java/non-short-circuit-evaluation
