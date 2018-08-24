@@ -1,6 +1,6 @@
 queries:
 - include: java/missing-override-annotation
-- inlcude: java/deprecated-call
+- include: java/deprecated-call
 - include: java/inconsistent-javadoc-throws
 - include: java/unused-parameter
 - include: java/abs-of-random
