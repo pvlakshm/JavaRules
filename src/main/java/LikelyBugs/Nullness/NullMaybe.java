@@ -6,6 +6,6 @@ public class NullMaybe
         // Rule doc: 
         // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Likely%20Bugs/Nullness/NullMaybe.ql
 
-        return s.length();
+        return true ? s.length() : 0;
     }
 }
