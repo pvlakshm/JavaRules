@@ -6,3 +6,4 @@ queries:
 - include: java/abs-of-random
 - include: java/multiplication-of-remainder
 - include: java/non-short-circuit-evaluation
+- include: java/missing-call-to-super-clone
