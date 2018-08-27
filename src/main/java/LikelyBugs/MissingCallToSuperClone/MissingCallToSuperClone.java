@@ -8,6 +8,8 @@ class WrongPerson implements Cloneable
     }
 
     // BAD: 'clone' does not call 'super.clone'.
+    
+    // @Override
     public WrongPerson clone()
     {
         return new WrongPerson(this.name);
@@ -25,6 +27,7 @@ class WrongEmployee extends WrongPerson
 
     // ALMOST RIGHT: 'clone' correctly calls 'super.clone',
     // but 'super.clone' is implemented incorrectly.
+    // @Override
     public WrongEmployee clone()
     {
         return (WrongEmployee)super.clone();
