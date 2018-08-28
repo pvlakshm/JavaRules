@@ -1,4 +1,10 @@
-public class TypeCheck
+class Animal{}
+
+class Mammal extends Animal {}
+
+class Tiger extends Mammal{}
+
+class TypeCheck
 {
     public String getKind(Animal a)
     {
