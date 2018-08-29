@@ -5,6 +5,6 @@ queries:
 - include: java/unused-parameter
 - include: java/abs-of-random
 - include: java/multiplication-of-remainder
-- include: java-random-used-once
+- include: java/random-used-once
 - include: java/non-short-circuit-evaluation
 - include: java/missing-call-to-super-clone
