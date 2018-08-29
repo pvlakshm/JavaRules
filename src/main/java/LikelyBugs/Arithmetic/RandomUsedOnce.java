@@ -15,8 +15,10 @@ public class RandomUsedOnce
         // QL query: https://github.com/lgtmhq/lgtm-queries/blob/master/java/Likely%20Bugs/Arithmetic/RandomUsedOnce.ql
 
         // BAD
-        int rn1 = new Random().nextInt();
-        int rn2 = new Random().nextInt();
+        Random r1 = new Random();
+        int rn1 = r1.nextInt();
+        Random r2 = new Random();
+        int rn2 = r2.nextInt();
 
         // GODO
         Random r = new Random();
