@@ -1,7 +1,7 @@
 public class ImpossibleJavadocThrows
 {
     /**
-    * @throws exception if a problem occurs.
+    * @throws Exception if a problem occurs.
     */
     public void noThrow()
     {
