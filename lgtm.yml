@@ -8,3 +8,4 @@ queries:
 - include: java/random-used-once
 - include: java/non-short-circuit-evaluation
 - include: java/missing-call-to-super-clone
+- include: java/call-to-thread-run
